@@ -36,7 +36,7 @@ modules: [
 esbuild: {
   loader: 'ts',
   // Optional
-  tsconfig: 'path-to-tsconfig.json',
+  tsconfigRaw: require('path-to-tsconfig.json'),
 },
 ```
 
